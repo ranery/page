@@ -13,6 +13,7 @@ compass:
   # if include_content is true, the contents of the content.html will be shown.
   include_content: true
 
+  side_bar: true
   # if include_analytics is true, the content of the analytics.html include will
   # be added at the end of the <head> section. You can add your Google Analytics
   # Tracking Code to that file.
