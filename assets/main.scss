@@ -85,6 +85,24 @@ since it must be aligned with the content */
 	margin-bottom: 2em;
 }
 
+/*** projects list ***/
+.project-container a {
+	font-size: 1.3em
+}
+
+.project-container p {
+	font-size: 1.3em
+}
+
+/*** publication ***/
+.publication-container a {
+	color: $text-color
+}
+
+.publication-page p{
+	font-size: 1.3em
+}
+
 /******/
 hr {
 	border: 0;

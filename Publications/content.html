@@ -1,0 +1,58 @@
+---
+layout: base
+---
+
+<main>
+    <div class="publication-container">
+        <h1>Publications</h1>
+        These are publications and preprint/unpublished manuscripts I am involved in.
+
+        <h2>Publications</h2>
+        <ul>
+          {% for post in site.posts %}
+            {% if post.layout == 'publication' %} {% unless post.manuscript %}
+              <li>
+                {{ post.authors }}.
+                <a href="{{ post.url }}">
+                  {% if post.available %} {{ post.title }}
+                  {% else %} ** Anonymous Submission **
+                  {% endif %}
+                </a>.
+                In <em>{{ post.booktitle }}</em>. {{ post.year }}.
+
+                {% if post.paper %} <a href="{{ post.paper }}">[paper]</a> {% endif %}
+                {% if post.poster %} <a href="{{ post.poster }}">[poster]</a> {% endif %}
+                {% if post.code %} <a href="{{ post.code }}">[code]</a> {% endif %}
+                {% if post.arxiv %} <a href="{{ post.arxiv }}">[arXiv]</a> {% endif %}
+              </li>
+            {% endunless %} {% endif %}
+          {% endfor %}
+        </ul>
+
+        <h2>Manuscripts</h2>
+        <ul>
+          {% for post in site.posts %}
+            {% if post.layout == 'publication' and post.manuscript %}
+              <li>
+                {{ post.authors }}.
+                <a href="{{ post.url }}">
+                  {% if post.available %} {{ post.title }}
+                  {% else %} ** Anonymous Submission **
+                  {% endif %}
+                </a>.
+                {% if post.reviewing %}
+                  Under review of the <em>{{ post.booktitle }}</em>. {{ post.year }}.
+                {% else %}
+                  {% unless post.arxiv %} <em>In progress</em>. {% endunless %}
+                {% endif %}
+
+                {% if post.paper %} <a href="{{ post.paper }}">[paper]</a> {% endif %}
+                {% if post.poster %} <a href="{{ post.poster }}">[poster]</a> {% endif %}
+                {% if post.code %} <a href="{{ post.code }}">[code]</a> {% endif %}
+                {% if post.arxiv %} <a href="{{ post.arxiv }}">[arXiv]</a> {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+    </div>
+</main>
