@@ -3,7 +3,7 @@ url: https://ranery.github.io
 baseurl: ''
 navi: ''
 # compass configuration
-compass:
+configs:
   # an avatar or logo (optional)
   logo: "/images/compass.png"
   # author will appear under the avatar (optional)
