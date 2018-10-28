@@ -2,8 +2,10 @@
 <html>
   {% include head.html %}
   <body>
-
-  {{ content }}
-
+  <div class="wrapper">
+    {% include title.html %}
+    {{ content }}
+    {% include foot.html %}
+  </div>
   </body>
 </html>
