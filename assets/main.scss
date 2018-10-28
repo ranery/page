@@ -85,22 +85,27 @@ since it must be aligned with the content */
 	margin-bottom: 2em;
 }
 
+/*** navigation ***/
+.navi-container p {
+	text-align: center;
+}
+
 /*** projects list ***/
 .project-container a {
-	font-size: 1.3em
+	font-size: 1.3em;
 }
 
 .project-container p {
-	font-size: 1.3em
+	font-size: 1.3em;
 }
 
 /*** publication ***/
 .publication-container a {
-	color: $text-color
+	color: $text-color;
 }
 
 .publication-page p{
-	font-size: 1.3em
+	font-size: 1.3em;
 }
 
 /******/
