@@ -1,5 +1,5 @@
 # general configuration
-url: https://www.hryou.com
+url: https://ranery.github.io
 baseurl: ''
 
 # compass configuration
@@ -13,7 +13,7 @@ compass:
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   # include_content: true
-  
+
   # if include_analytics is true, the content of the analytics.html include will
   # be added at the end of the <head> section. You can add your Google Analytics
   # Tracking Code to that file.
