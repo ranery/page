@@ -11,3 +11,4 @@ githublink: https://github.com/ranery/Courses-only
 - Local feature detection and matching : [Github repo](https://github.com/ranery/Courses-only/blob/master/local_feature_detection_and_matching.ipynb)
 - Convolutional neural network without framework : [Github repo](https://github.com/ranery/Courses-only/tree/master/CNN)
 - High resolution edge detection (prefect results!) : [Github repo](https://github.com/ranery/Courses-only/blob/master/edge-detection.pdf)
+- Software for association anaylsis using Apriori algorithm : [Github repo](https://github.com/ranery/Courses-only/tree/master/Apriori)
