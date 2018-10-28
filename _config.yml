@@ -1,7 +1,7 @@
 # general configuration
 url: https://ranery.github.io
 baseurl: ''
-
+navi: ''
 # compass configuration
 compass:
   # an avatar or logo (optional)
