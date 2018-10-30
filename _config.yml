@@ -5,7 +5,7 @@ navi: ''
 # compass configuration
 configs:
   # an avatar or logo (optional)
-  logo: "/images/ex.png"
+  logo: "/images/no.jpg"
   # author will appear under the avatar (optional)
   title: "Haoran You"
   # tagline will appear under the title (optional)
