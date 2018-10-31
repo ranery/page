@@ -4,7 +4,7 @@ title: Bayesian CycleGAN
 manuscript: True
 authors: <b>Haoran You</b>, Yu Cheng, Chunliang Li, Tianheng Cheng, Pan Zhou
 reviewing: True
-available: False
+available: True
 booktitle: AAAI Conference on Artificial Intelligence
 year: 2019
 ---
