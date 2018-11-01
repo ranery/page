@@ -5,7 +5,7 @@ manuscript: True
 authors: <b>Haoran You</b>, Yu Cheng, Chunliang Li, Tianheng Cheng, Pan Zhou
 reviewing: True
 available: True
-booktitle: AAAI Conference on Artificial Intelligence
+booktitle: In process
 year: 2019
 ---
 Recent techniques built on Generative Adversarial Networks (GANs) like CycleGAN are able to learn mappings between domains from unpaired datasets through min-max optimization games between generators and discriminators. However, it remains challenging to stabilize the training process and diversify generated results.
