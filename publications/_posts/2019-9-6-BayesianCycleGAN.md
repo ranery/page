@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Bayesian CycleGAN
+title: A Bayesian Extension for CycleGAN by Sampling Latent Variables
 manuscript: True
 authors: <b>Haoran You</b>, Yu Cheng, Chunliang Li, Tianheng Cheng, Pan Zhou
 reviewing: False
