@@ -5,7 +5,7 @@ manuscript: True
 authors: <b>Haoran You</b>, Yu Cheng, Chunliang Li, Tianheng Cheng, Pan Zhou
 reviewing: True
 available: True
-booktitle: International Conference on Computer Vision and Pattern Recognition (CVPR).
+booktitle: International Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 arxiv: https://arxiv.org/abs/1811.07465
 ---
